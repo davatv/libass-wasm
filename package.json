@@ -2,8 +2,12 @@
   "name": "libass-wasm",
   "version": "4.0.0",
   "description": "libass Subtitle Renderer and Parser library for browsers",
-  "main": "subtitles-octopus.js",
+  "main": "dist/subtitles-octopus.js",
   "files": [
-    "subtitles*"
-  ]
+    "dist/subtitles*"
+  ],
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
+  }
 }
